@@ -30,7 +30,9 @@ This application will generate a README.md file and automatically add it to the 
 
 ## Screenshot & Demo Video
 
-### [Watch the Demo Video](https://www.youtube.com/watch?v=5RItt6LS-xo)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5RItt6LS-xo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### [Link to Demo Video](https://www.youtube.com/watch?v=5RItt6LS-xo)
 
 
 ![](assets/img/terminal.png)
