@@ -36,12 +36,17 @@ function generateMarkdown(response) {
 6. [Questions](#questions)
 
 
-##Description
-${response.description}
+## Description
+${response.motivation}
+
+${response.why}
+
+${response.problems}
+
+${response.learn}
 
 
-
-##Installation Instructions
+## Installation Instructions
 ${response.install1}
 
 ${response.install2}
@@ -53,23 +58,22 @@ ${response.install4}
 ${response.install5}
 
 
-
-##Usage Instructions
+## Usage Instructions
 ${response.usage}
 
 
-
-##Contribution Guidelines
+## Contribution Guidelines
 ${response.contribution}
 
 
-
-##Testing Instructions
+## Testing Instructions
 ${response.test}
 
 
+## Credits
+${response.credits}
 
-##Questions
+## Questions
 [Link to GitHub Profile](https://www.github.com/${response.githubUsername})
 
 For additional questions please email ${response.email}

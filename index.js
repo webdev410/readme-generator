@@ -14,8 +14,23 @@ const promptUser = () => {
                 },
                 {
                         type: 'input',
-                        message: 'Description: ',
-                        name: 'description',
+                        message: 'What was your motivation?',
+                        name: 'motivation',
+                },
+                {
+                        type: 'input',
+                        message: 'Why did you build this project?',
+                        name: 'why',
+                },
+                {
+                        type: 'input',
+                        message: 'What problem does it solve?',
+                        name: 'problems',
+                },
+                {
+                        type: 'input',
+                        message: 'What did you learn?',
+                        name: 'learn',
                 },
                 {
                         type: 'input',
@@ -62,13 +77,16 @@ const promptUser = () => {
                         message: 'Please Select a license',
                         choices: [
                                 'MIT',
-                                'Apache 2.0',
+                                'Apache',
                                 'GNU',
                                 'Creative Commons',
-                                'GNU',
-                                'GNU',
                         ],
                         name: 'license',
+                },
+                {
+                        type: 'input',
+                        message: 'Who worked on this app',
+                        name: 'credits',
                 },
                 {
                         type: 'input',

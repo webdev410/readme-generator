@@ -1,52 +1,45 @@
 
-#Example Title 
+#Readme Generator
 
-![License](https://img.shields.io/badge/License-Apache 2.0-blue.svg "License Badge")
-
-#Table of Contents
-1. [Description](#description)
-2. [Installation](#Installation-Instructions)
-3. [Usage Instructions](#usage-instructions)
-4. [Contribution Guidelines](#contribution-guidelines)
-5. [Testing Instructions](#testing-instructions)
-6. [Questions](#questions)
-
-
-##Description
-This is the description
+![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
 
 
 
-##Installation Instructions
-number 1
+## Description
+This application will generate a README.md file and automatically add it to the file directory. It will prompt the user with the following questions:
 
-number 2
-
-three
-
-
-
-
-
-
-
-##Usage Instructions
-Use it
-
-
-
-##Contribution Guidelines
-Contribute
+1. Project Title
+2. What was your motivation?
+3. Why did you build this project?
+4. What problems does it solve?
+5. What did you learn?
+6. Installation instructions (5 prompts for 5 steps)
+7. Usage Information
+8. Contribution Guidelines
+9. Testing Instructions
+10. License Type
+11. Who worked on this app?
+12. GitHub Username
+13. Developer Contact Email
 
 
+## Links
+[Repo](https://github.com/webdev410/readme-generator)
 
-##Testing Instructions
-Test
+[Deployed](https://webdev410.github.io/readme-generator/)
+
+## Screenshot & Demo Video
+
+### [Watch the Demo Video](https://www.youtube.com/watch?v=5RItt6LS-xo)
+
+
+![](assets/img/terminal.png)
+![](assets/img/screenshot.png)
 
 
 
-##Questions
+## Questions
 [Link to GitHub Profile](https://www.github.com/webdev410)
 
-For additional questions please email webdev401@gmail.com
+For additional questions please email webdev410@gmail.com
 
