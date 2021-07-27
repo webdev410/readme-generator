@@ -1,5 +1,7 @@
 
-#Example Title
+#Example Title 
+
+![License](https://img.shields.io/badge/License-Apache 2.0-blue.svg "License Badge")
 
 #Table of Contents
 1. [Description](#description)
@@ -11,25 +13,40 @@
 
 
 ##Description
-This is the description where things will be described.
+This is the description
+
+
 
 ##Installation Instructions
-Do this. Then do that. Then do another thing.
+number 1
+
+number 2
+
+three
+
+
+
+
+
+
 
 ##Usage Instructions
-*Use it wisely 
+Use it
+
+
 
 ##Contribution Guidelines
-Contribute positively 
+Contribute
+
+
 
 ##Testing Instructions
-testing 1 2 3
+Test
 
-##License Information
-Number 3
+
 
 ##Questions
 [Link to GitHub Profile](https://www.github.com/webdev410)
 
-For additional questions please email webdev410@gmail.com
+For additional questions please email webdev401@gmail.com
 

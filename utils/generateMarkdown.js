@@ -1,6 +1,16 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-//function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+        if (!license){
+                license = "";
+                return license;
+        }
+        if(license === "MIT"){
+                license = "MIT BADGE"
+                return license;
+        }
+        console.log("HERE")
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -13,7 +23,9 @@
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(response) {
         return `
-#${response.title}
+#${response.title} 
+
+![License](https://img.shields.io/badge/License-${response.license}-blue.svg "License Badge")
 
 #Table of Contents
 1. [Description](#description)
@@ -27,20 +39,35 @@ function generateMarkdown(response) {
 ##Description
 ${response.description}
 
+
+
 ##Installation Instructions
-${response.install}
+${response.install1}
+
+${response.install2}
+
+${response.install3}
+
+${response.install4}
+
+${response.install5}
+
+
 
 ##Usage Instructions
-*${response.usage}
+${response.usage}
+
+
 
 ##Contribution Guidelines
 ${response.contribution}
 
+
+
 ##Testing Instructions
 ${response.test}
 
-##License Information
-${response.license}
+
 
 ##Questions
 [Link to GitHub Profile](https://www.github.com/${response.githubUsername})

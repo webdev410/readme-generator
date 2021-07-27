@@ -19,8 +19,28 @@ const promptUser = () => {
                 },
                 {
                         type: 'input',
-                        message: 'Installation Instructions: ',
-                        name: 'install',
+                        message: 'Installation Instruction #1: ',
+                        name: 'install1',
+                },
+                {
+                        type: 'input',
+                        message: '#2 (if no further instructions are needed, leave blank and press ENTER): ',
+                        name: 'install2',
+                },
+                {
+                        type: 'input',
+                        message: '#3 (if no further instructions are needed, leave blank and press ENTER): ',
+                        name: 'install3',
+                },
+                {
+                        type: 'input',
+                        message: '#4 (if no further instructions are needed, leave blank and press ENTER): ',
+                        name: 'install4',
+                },
+                {
+                        type: 'input',
+                        message: '#5 (if no further instructions are needed, leave blank and press ENTER): ',
+                        name: 'install5',
                 },
                 {
                         type: 'input',
@@ -39,11 +59,14 @@ const promptUser = () => {
                 },
                 {
                         type: 'list',
-                        message:'Please Select a license',
+                        message: 'Please Select a license',
                         choices: [
                                 'MIT',
-                                'license 2',
-                                'Number 3',
+                                'Apache 2.0',
+                                'GNU',
+                                'Creative Commons',
+                                'GNU',
+                                'GNU',
                         ],
                         name: 'license',
                 },
@@ -57,7 +80,7 @@ const promptUser = () => {
                         message: 'Contact Email:',
                         name: 'email',
                 },
-             
+
         ]);
 
 
@@ -72,11 +95,12 @@ function writeToFile(fileName, response) {
 // TODO: Create a function to initialize app
 function init() {
         promptUser()
+              
                 .then((response) => writeToFile("README.md", response))
                 .then(() => console.log('Successfully wrote to README.md'))
                 .catch((err) => console.error(err));
 
-              
+
 
 }
 
