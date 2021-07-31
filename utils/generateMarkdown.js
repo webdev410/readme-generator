@@ -1,33 +1,11 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {
-        if (!license){
-                license = "";
-                return license;
-        }
-        if(license === "MIT"){
-                license = "MIT BADGE"
-                return license;
-        }
-        console.log("HERE")
-}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-//function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-// function renderLicenseSection(license) {}
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(response) {
         return `
-#${response.title} 
+# ${response.title} 
 
 ![License](https://img.shields.io/badge/License-${response.license}-blue.svg "License Badge")
 
-#Table of Contents
+# Table of Contents
 1. [Description](#description)
 2. [Installation](#Installation-Instructions)
 3. [Usage Instructions](#usage-instructions)
